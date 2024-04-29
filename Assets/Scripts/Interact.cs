@@ -43,7 +43,7 @@ public class Interact : MonoBehaviour
 
     private void Start()
     {
-        allLines = Resources.FindObjectsOfTypeAll<Dialogue>();
+        
     }
     public void ShowLines()
     {
