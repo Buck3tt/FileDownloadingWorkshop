@@ -33,9 +33,9 @@ public class Interact : MonoBehaviour
 
         foreach (Dialogue dialogue in Resources.FindObjectsOfTypeAll<Dialogue>())
         {
-            if (Data.ContainsKey(dialogue.GetID()))
+            if (Data.ContainsKey(dialogue.ID))
             {
-                dialogue.LoadData(Data[dialogue.GetID()]);
+                dialogue.LoadData(Data[dialogue.ID]);
             }
         }
     }*/
@@ -47,10 +47,6 @@ public class Interact : MonoBehaviour
     }
     public void ShowLines()
     {
-        if(allLines.Length < 1 || allLines == null)
-        {
-            allLines = Resources.FindObjectsOfTypeAll<Dialogue>();
-        }
         randomLine();
 
     }
