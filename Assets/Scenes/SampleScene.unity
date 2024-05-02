@@ -1051,7 +1051,7 @@ GameObject:
   - component: {fileID: 2000744478}
   - component: {fileID: 2000744477}
   m_Layer: 5
-  m_Name: Say Hi
+  m_Name: Values Stored Here
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1094,6 +1094,7 @@ MonoBehaviour:
   dialogue:
     Character: Me
     Body: 
+  URL: 
 --- !u!114 &2000744478
 MonoBehaviour:
   m_ObjectHideFlags: 0

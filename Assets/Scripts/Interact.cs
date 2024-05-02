@@ -18,7 +18,7 @@ public class Interact : MonoBehaviour
 
 
     [SerializeField]
-    private static string URL = "";
+    private string URL = "";
 
     /*
     private void Awake()
